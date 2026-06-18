@@ -2,7 +2,7 @@
 #define RECEIPT_HPP
 
 // The required sales tax rate for this lab.
-const double TAX_RATE = 0.0775;
+inline const double TAX_RATE = 0.0775;
 
 // Calculates the subtotal of three item prices.
 double calculateSubtotal(double item1, double item2, double item3);
